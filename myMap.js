@@ -4,6 +4,13 @@ function myMap(arr, callback) {
 
 //  CODE INSIDE HERE   //
 
+var out = [];
+
+for (var i = 0; i < arr.length; i++) {
+	out[i] = callback (arr[i], i, arr);
+}
+return out;
+
 }
 
 /*

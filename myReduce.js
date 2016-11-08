@@ -4,7 +4,14 @@
 function myReduce(arr, callback) {
 
 //  CODE INSIDE HERE   //
+var newArray;
+var 
 
+for (var i = 0; i < arr.length; i++) {
+	arr[i] = arr[i-1]+arr[i];
+	// return callback(arr[i], i, arr);
+}
+return outcome
 }
 
 /*
